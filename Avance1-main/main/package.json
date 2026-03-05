@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "git": "^0.1.5",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.1.6",
+    "react-router-dom": "^7.13.1"
+  },
+  "name": "api-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "start": "node server.js",
+    "start:backend": "node server.js",
+    "start:debug": "node --inspect server.js",
+    "start:debug:brk": "node --inspect-brk server.js",
+    "start:frontend": "npm --prefix frontend-react run dev"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
+  },
+  "author": {
+    "name": "Hector",
+    "email": "hdelrio712@gmail.com"
+  }
+}
