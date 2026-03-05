@@ -9,7 +9,8 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #ea6666 0%, #ff4800 100%);
+  /* Professional blue gradient */
+  background: linear-gradient(135deg, #0b3d91 0%, #1e6fb8 100%);
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -32,18 +33,26 @@ body {
 
 .auth-box {
   background: white;
-  padding: 40px;
-  border-radius: 10px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  padding: 48px 48px;
+  border-radius: 12px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.18);
   width: 100%;
-  max-width: 400px;
+  max-width: 520px;
 }
 
 .auth-box h1 {
   text-align: center;
-  color: #333;
+  color: #072a55;
   margin-bottom: 30px;
   font-size: 28px;
+}
+
+.app-title {
+  color: #eaf6ff;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+  letter-spacing: 0.2px;
 }
 
 .form-group {
@@ -80,7 +89,7 @@ body {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #5a0404 0%, #ff0000 100%);
+  background: linear-gradient(135deg, #1464b0 0%, #0b3d91 100%);
   color: white;
   margin-bottom: 15px;
 }
@@ -98,7 +107,7 @@ body {
 }
 
 .toggle-text a {
-  color: #667eea;
+  color: #cfe8ff;
   text-decoration: none;
   font-weight: 600;
 }
@@ -133,7 +142,7 @@ body {
 }
 
 .navbar {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0d47a1 0%, #1976d2 100%);
   color: white;
   padding: 20px;
   display: flex;
@@ -153,7 +162,7 @@ body {
 
 .user-info {
   font-size: 14px;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
   padding: 8px 12px;
   border-radius: 5px;
 }
@@ -196,7 +205,7 @@ body {
 }
 
 .link {
-  color: #667eea;
+  color: #0b3d91;
   text-decoration: none;
   font-weight: 600;
 }

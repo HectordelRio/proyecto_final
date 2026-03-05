@@ -1,3 +1,4 @@
+
 import { useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { useAuth } from '../state/AuthContext.jsx'
@@ -33,6 +34,9 @@ export default function Login() {
   return (
     <div className="container">
       <div className="auth-screen">
+        <div style={{ textAlign: 'center', marginBottom: '16px' }}>
+          <h2 className="app-title">Gestión de Tareas para empleados</h2>
+        </div>
         <div className="auth-box">
           <h1>Iniciar Sesión</h1>
           <form onSubmit={onSubmit}>

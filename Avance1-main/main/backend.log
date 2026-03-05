@@ -1,0 +1,7 @@
+
+> api-auth@1.0.0 start:backend
+> node server.js
+
+[dotenv@17.2.3] injecting env (3) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+Servidor corriendo en puerto 3000
+MongoDB conectado
